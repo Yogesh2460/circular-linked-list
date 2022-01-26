@@ -46,7 +46,7 @@ else
  int t=k->data;
  delete(k);
 }
-
+}
 void dis()
 {
 q=front;
