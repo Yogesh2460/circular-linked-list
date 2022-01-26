@@ -38,8 +38,14 @@ if(front==NULL)
 {
 cout<<"no nodes"<<endl;
 }
-else if(front==rear)
-{
+else 
+{node *k;
+ k=front;
+ front=front->link;
+ rear->link=front;
+ int t=k->data;
+ delete(k);
+}
 
 void dis()
 {
